@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+body main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 180px;
+}
+
+body main .content .colors {
+  height: 85px;
+  border-radius: 6px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: rgba(73, 73, 80, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(73, 73, 80, 0.2) 0px 7px 29px 0px;
+}
+
+body main .content .colors h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 25px 25px 25px;
+  font-weight: 900;
+}
+
+body main .content .colors h1 span {
+  color: #7281FD;
+  font-weight: 800;
+}
+
+body main .content .button {
+  margin-top: 45px;
+}
+
+body main .content .button button {
+  border: none;
+  -webkit-box-shadow: rgba(73, 73, 80, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(73, 73, 80, 0.2) 0px 7px 29px 0px;
+  height: 50px;
+  width: 185px;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  border-radius: 6px;
+  font-weight: 800;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+body main .content .button button:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  color: black;
+}
+/*# sourceMappingURL=global.css.map */
